@@ -1,4 +1,4 @@
-package org.jboss.wicket.test;
+package org.jboss.wicket.test1;
 
 import org.apache.wicket.util.time.Duration;
 import org.eclipse.jetty.http.ssl.SslContextFactory;

@@ -1,4 +1,4 @@
-package org.jboss.wicket.test;
+package org.jboss.wicket.test1.pages;
 
 import org.apache.wicket.request.mapper.parameter.PageParameters;
 import org.apache.wicket.markup.html.basic.Label;

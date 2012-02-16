@@ -1,4 +1,4 @@
-package org.jboss.wicket.test;
+package org.jboss.wicket.test1.pages;
 
 import org.apache.wicket.protocol.http.WebApplication;
 

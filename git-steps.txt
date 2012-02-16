@@ -1,4 +1,4 @@
 
 
 step1: Generated from Wicket quickstart.
-step2: Added GreeterEJB and deps for JBoss JavaEE API.
+step2: Added GreeterEJB and deps for JBoss JavaEE API. And this file.

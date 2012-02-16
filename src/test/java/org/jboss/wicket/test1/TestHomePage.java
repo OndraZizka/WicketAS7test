@@ -1,8 +1,8 @@
 package org.jboss.wicket.test1;
 
 import org.apache.wicket.util.tester.WicketTester;
-import org.jboss.wicket.test.HomePage;
-import org.jboss.wicket.test.WicketApplication;
+import org.jboss.wicket.test1.pages.HomePage;
+import org.jboss.wicket.test1.pages.WicketApplication;
 import org.junit.Before;
 import org.junit.Test;
 

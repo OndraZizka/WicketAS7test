@@ -21,10 +21,11 @@
 
 package org.jboss.wicket.test1.ejb;
 
-import javax.ejb.EJB;
 import javax.enterprise.context.SessionScoped;
 import javax.inject.Named;
 import java.io.Serializable;
+import javax.ejb.EJB;
+import org.jboss.as.quickstarts.ejbinwar.ejb.GreeterEJB;
 
 /**
  * A simple managed bean that is used to invoke the GreeterEJB and store the response. The response is obtained by

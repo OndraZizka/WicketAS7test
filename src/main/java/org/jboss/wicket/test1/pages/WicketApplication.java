@@ -1,6 +1,7 @@
 package org.jboss.wicket.test1.pages;
 
 import org.apache.wicket.protocol.http.WebApplication;
+import org.wicketstuff.javaee.injection.JavaEEComponentInjector;
 
 /**
  * Application object for your web application. If you want to run this application without deploying, run the Start class.
@@ -26,6 +27,7 @@ public class WicketApplication extends WebApplication
 	{
 		super.init();
 
-		// add your configuration here
+		getComponentInstantiationListeners().add(new JavaEEComponentInjector(this));
+		mountPage("/insert", InsertContact.class);
 	}
 }

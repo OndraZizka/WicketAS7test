@@ -34,9 +34,12 @@ public class InsertContact extends WebPage
 {
 
 	private static final long serialVersionUID = 1L;
-	private Form<Contact> insertForm;
+	
+    private Form<Contact> insertForm;
+    
 	private String name;
 	private String email;
+    
 	@EJB(name = "ContactDaoBean")
 	private ContactDaoLocal contactDao;
 
@@ -57,10 +60,8 @@ public class InsertContact extends WebPage
 			}
 		};
 
-		insertForm.add(new RequiredTextField<String>("name",
-			new PropertyModel<String>(this, "name")));
-		insertForm.add(new RequiredTextField<String>("email", new PropertyModel<String>(this,
-			"email")));
+		insertForm.add(new RequiredTextField<String>("name",  new PropertyModel<String>(this, "name")));
+		insertForm.add(new RequiredTextField<String>("email", new PropertyModel<String>(this, "email")));
 		add(insertForm);
 	}
 
